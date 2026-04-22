@@ -1,0 +1,1 @@
+GZ_PARTITION from Harmonic - (gz-transport-13) can be used to set communication boundary between processes. 
