@@ -12,7 +12,7 @@ This result can be verified using Taylor Series.
 $$e^{At} = I + A.t + \frac{A^2.t^2}{2!} + \frac{A^3.t^3}{3!} ...$$ 
 **The Computational Bottleneck:** But this is not practical for computing as we cannot reiterate this forever. So it is more practical to think of the system in eigenvalues and eigenvectors, in eigenspace. 
 # 3. The Eigenspace
-The conversion to eigenspace is helpful because while it doesn't help us get rid of the infinitely recursive nature ([[Cayley Hamilton Theorem]] helps us with that) it does help us with dealing with exponents of A. When we decompose the matrix A to eigenspace:
+The conversion to eigenspace is helpful because while it doesn't help us get rid of the infinitely recursive nature ([[Cayley-Hamilton Theorem]] helps us with that) it does help us with dealing with exponents of A. When we decompose the matrix A to eigenspace:
 $$A = V \Lambda V^{-1}$$ where: $$V = \begin{bmatrix} v_1 & v_2 & v_3\end{bmatrix}$$ $$ \Lambda = \begin{bmatrix} \lambda_1 & 0 & 0 \\ 0 & \lambda_2 & 0 \\ 0 & 0 & \lambda_3 \end{bmatrix}$$
 - V is the eigenvector matrix
 - $\Lambda$ is the diagonal matrix of eigenvalues.

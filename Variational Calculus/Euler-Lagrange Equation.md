@@ -1,0 +1,1 @@
+Lagrange formulated that Equations of Motion can be derived through optimisation; 
