@@ -70,7 +70,9 @@ If this path y is an optimum path, (an extremal), there has to be a stationary p
 
 $$\left.\frac{dI}{d\epsilon}\right|_{\epsilon=0}=\left.\frac{d}{d\epsilon}\right|_{\epsilon=0}\int_{x_1}^{x_2}F[x,\bar{y}(x),\bar{y}'(x)\space dx=0$$
 Here we have swapped y with $\bar{y}$. our definition of y is a theoretical perfect path, that does not have any variable. 
-The significant thing here is that this is the **whole derivative** of I, not a partial derivative. So this means we can find the global minimum point of our cost, and we get to find out which $\epsilon$ gives us that minimum cost path. We need to set the derivative of I to be 0, near the $\epsilon = 0$ point. Then we move the derivative inside the integral:
+The significant thing here is that this is the **whole derivative** of I, not a partial derivative. So this means we can find the global minimum point of our cost, and we get to find out which $\epsilon$ gives us that minimum cost path. We need to **set the derivative of I to be 0, near the $\epsilon = 0$ point**. This is just calculus101, minimum/maximum where derivative is 0.
+
+Then we move the derivative inside the integral:
 $$\int_{x_1}^{x_2}\left.\frac{d}{d\epsilon}(F[x,\bar{y}(x),\bar{y}'(x)])\right|_{\epsilon=0}dx=0$$
 > [!INFORMATION] Moving the derivative inside the integral - this is Leibniz rule.
 > We are allowed to do this because it is a definite integral, with $x_1$ and $x_2$ fixed.
@@ -79,7 +81,7 @@ To take the derivative with respect to $d\epsilon$,  we can't just take the deri
 This is the multivariable calculus - since F is not a function of $\epsilon$ we take the derivative of F wrt x, y, y' then chain it with derivatives of the respective vars wrt $\epsilon$. 
 Since x is not a function of $\epsilon$, and only part of y and y' that are dependent on $\epsilon$ are $\eta$, (as evident on the partial derivatives with respect to $\epsilon$ from above): our equation collapses to the following:
 $$\int_{x_1}^{x_2}\left.(\frac{\partial F}{\partial\bar{y}}.\eta+\frac{\partial F}{\partial\bar{y}'}\eta')\right|_{\epsilon=0}dx=0$$
-> [!ERROR] We must evaluate this at $epsilon=0$!! 
+> [!ERROR] We must evaluate this at $\epsilon=0$!! 
 > So that this variation approaches the optimal solution. As $\epsilon$ approaches 0, we get closer to optimal path, y. and we have the optimal at exactly $\epsilon=0$. 
 
 As $\epsilon=0$, we no longer need $\bar{y}$, just need y, as it is now the optimal. **So what the fuck was the point of $\bar{y}$ the whole time?**
@@ -88,7 +90,7 @@ $$\int_{x_1}^{x_2}\left.(\frac{\partial F}{\partial y}.\eta+\frac{\partial F}{\p
 This is called the 1st variation **Weak Form**, because we have $\eta'$, in it's derivate, not in it's pure form. So if we evaluate this integral now, we apply integration by parts:
 $$\left.\frac{\partial F}{\partial y'}\eta\right|_{x_1}^{x_2}+\int_{x_1}^{x_2}(\frac{\partial F}{\partial y}-\frac{d}{dx}(\frac{\partial F}{\partial y'}))\eta dx=0 $$
 Now we have the **strong form**. It is only in terms of $\eta$ now.
-The first term cancels out to 0, as $\eta$, which is the deviation from the optimal path, is 0 at the waypoint themselves. No matter how much we deviate from the optimal path, at least the start and finish must be the same. 
+The first term cancels out to 0, as $\eta$, which is the deviation from the optimal path, is 0 at the waypoint themselves ($x_1$ and $x_2$). No matter how much we deviate from the optimal path, at least the start and finish must be the same. 
 
 But $\eta$ is arbitrary, which means it can be anything. This forces the other part that it is multiplying, to be 0. This is the fundamental lemma of calculus of variations. So even the second term is equal to 0.
 $$\frac{\partial F}{\partial y}-\frac{d}{dx}(\frac{\partial F}{\partial y'})=0$$ This is the [[Euler-Lagrange Equation]]!!!!!
