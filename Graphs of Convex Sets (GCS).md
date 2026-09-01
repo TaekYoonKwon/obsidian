@@ -1,0 +1,5 @@
+Graphs of Convex Sets are powerful frameworks that is able to bridge the gap between the continuous space of convex optimisation and combinatorial optimisation. The key insight for GCS is that [[Convex Programs]] are represented as **vertices**, each connected via **edges** which contain **convex costs and constraints**.
+
+The key insight was derived from [[Weighted Graph]] optimisation, which are basically just travelling-salesperson problem. In fact, if we say the cost and constraints of each vertices and edges, GCS reduces to an ordinary weighted graph where vertex and edge costs are scalars.  
+
+The key challenge when solving a GCS problem is that we are trying to minimise the cost of the path formulated by a series of **decisions** of cost functions of continuous variables. This requires that we take the brute-force or heuristic approach where we evaluate every possible paths. This is an [[Integer Linear Program]] - ILP, which is very slow, and scales astronomically bad. Graphs of Convex Sets takes ILP problem, and turns it into [[Mixed Integer Convex Program]] - MICP, which models the GCS problem. 

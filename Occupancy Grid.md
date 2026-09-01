@@ -1,0 +1,1 @@
+As robot navigates around the world, it must know 

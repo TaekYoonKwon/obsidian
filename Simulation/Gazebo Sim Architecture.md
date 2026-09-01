@@ -19,7 +19,7 @@ The plugins we write are systems - they implement and live inside ECS loop with 
 ## Communication Process
 Any information that needs to cross the boundary of a process - server to GUI has to go through the communication library. 
 
-Synchronisation between processes are handled by the processes themselves. For example, communication from server to GUI is managed by Scene Broadcaster - a server side Gazebo Sim plugin which uses [[Gazebo Transport]] and [[Gazebo Messages]] libraries to send messages from server to the client. 
+Synchronisation between processes are handled by the processes themselves. For example, communication from server to GUI is managed by [[SceneBroadcaster]] - a server side Gazebo Sim plugin which uses [[Gazebo Transport]] and [[Gazebo Messages]] libraries to send messages from server to the client. 
 
 ## Frontend Client Process (GUI)
 The client side process is namely [[Gazebo GUI]], which is what renders the entities via [[Gazebo Rendering]] and their components, arrived via communication process.
@@ -28,5 +28,5 @@ There are also many other client processes other than the GUI. Frontend plugins 
 
 Frontend plugins have access to entities and components via [[EntityComponentManager]] on the client side. Client side plugins only react to the entities and components information, rather than acting on it.
 
-Note this is separate to the Server side ECM. So the way it works is typically - Scene Broadcaster or another process packages the states of the entities and components, then publishes it over [[Gazebo Transport]] as a message. This is then processed by ECM on the client side, which unpacks the messages and distributes among the client side processes. 
+Note this is separate to the Server side ECM. So the way it works is typically - [[SceneBroadcaster]] or another process packages the states of the entities and components, then publishes it over [[Gazebo Transport]] as a message. This is then processed by ECM on the client side, which unpacks the messages and distributes among the client side processes. 
 
