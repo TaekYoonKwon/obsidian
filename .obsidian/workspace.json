@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "33c9f99598439e22",
+    "type": "split",
+    "children": [
+      {
+        "id": "26998ffa31e702d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c40a6994681774ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/Syos Matrix Session Isolation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syos Matrix Session Isolation"
+            }
+          },
+          {
+            "id": "08f8cc81a7c1a013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/Syos Matrix Session Isolation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syos Matrix Session Isolation"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe017a52e3c7a7ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "7421f95bec36186e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5548393c012cde4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c9adb4de8e688f5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "22e1a8971cbcb06e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eb483888762674fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c1126ccf955e340",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c442393a918663f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "projects/Syos Matrix Session Isolation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f9f11bdb690aeca9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "projects/Syos Matrix Session Isolation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "34b826e8dadcb587",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e4b6b18f7fd11a3d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c92745277230bf36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "projects/Syos Matrix Session Isolation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "08f8cc81a7c1a013",
+  "lastOpenFiles": [
+    "Untitled 1.md",
+    "Untitled.md",
+    "Untitled 2.md",
+    "projects/Syos Matrix Session Isolation.md",
+    "projects/AAIMS HAL.md",
+    "projects",
+    "projects/Syos Guidance Module refactor.md",
+    "README.md",
+    "_meta/Probability & Statistics Template.md",
+    "_meta/Learning Sheet Template.md",
+    "_meta",
+    "_assets/Tue May 5 05 35 21 PM NZST 2026 1",
+    "_assets/Tue May 5 05 35 21 PM NZST 2026",
+    "_assets/Sat May 9 12 44 16 PM NZST 2026 2",
+    "_assets/Sat May 9 12 44 16 PM NZST 2026 1",
+    "_assets/Sat May 9 12 44 16 PM NZST 2026",
+    "_assets/Sat May 9 01 44 41 PM NZST 2026",
+    "middleware-and-simulation/Isaac Sim Workflow.md",
+    "middleware-and-simulation/Isaac Sim Extensions.md",
+    "middleware-and-simulation/GZ-SITL Split Simulation.md",
+    "middleware-and-simulation/Gazebo Transport.md",
+    "middleware-and-simulation/Gazebo Sim Architecture.md",
+    "middleware-and-simulation/Entity-Component System (ECS) architecture.md",
+    "middleware-and-simulation/ArduPilot SITL.md",
+    "middleware-and-simulation/GStreamer.md",
+    "middleware-and-simulation/SceneBroadcaster.md",
+    "middleware-and-simulation/Gazebo SDF Model Definition.md",
+    "middleware-and-simulation/Gazebo Scene Info.md",
+    "middleware-and-simulation/Gazebo Messages.md",
+    "middleware-and-simulation/ROS2/package.xml.md",
+    "middleware-and-simulation/ROS2/Topics.md",
+    "middleware-and-simulation/ROS2/Topic Type.md",
+    "middleware-and-simulation/ROS2/Services.md",
+    "middleware-and-simulation/ROS2/Service Type.md",
+    "middleware-and-simulation/ROS2",
+    "middleware-and-simulation",
+    "_assets/Pasted image 20260620180955.png",
+    "_assets/Pasted image 20260606190617.png",
+    "_assets/Pasted image 20260606185902.png",
+    "_assets/Pasted image 20260606181434.png",
+    "_assets/Pasted image 20260606181129.png",
+    "_assets/Pasted image 20260606174706.png",
+    "_assets/Pasted image 20260606174650.png",
+    "_assets/Pasted image 20260606174627.png",
+    "_assets/Pasted image 20260606174341.png",
+    "_assets/Pasted image 20260606174053.png"
+  ]
+}
