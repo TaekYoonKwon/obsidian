@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "33c9f99598439e22",
+    "id": "f1e946668b46711b",
     "type": "split",
     "children": [
       {
-        "id": "26998ffa31e702d7",
+        "id": "3154d55d4b77b9b6",
         "type": "tabs",
         "children": [
           {
-            "id": "c40a6994681774ac",
+            "id": "196b668701b018ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/Syos Matrix Session Isolation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Syos Matrix Session Isolation"
-            }
-          },
-          {
-            "id": "08f8cc81a7c1a013",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/Syos Matrix Session Isolation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Syos Matrix Session Isolation"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fe017a52e3c7a7ba",
+    "id": "60830f24f7c394f3",
     "type": "split",
     "children": [
       {
-        "id": "7421f95bec36186e",
+        "id": "b00a9d62478c1102",
         "type": "tabs",
         "children": [
           {
-            "id": "d5548393c012cde4",
+            "id": "51b74bf4ab618c2a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,12 +46,12 @@
             }
           },
           {
-            "id": "c9adb4de8e688f5d",
+            "id": "71a69de31fda49b5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "scene broadcaster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,14 +63,11 @@
             }
           },
           {
-            "id": "22e1a8971cbcb06e",
+            "id": "00cf4cd1362c869b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -101,20 +79,20 @@
     "width": 300
   },
   "right": {
-    "id": "eb483888762674fb",
+    "id": "00a9b9999e6bc6fe",
     "type": "split",
     "children": [
       {
-        "id": "5c1126ccf955e340",
+        "id": "f8003c1fa7afd4f0",
         "type": "tabs",
         "children": [
           {
-            "id": "c442393a918663f9",
+            "id": "1e431baa6fb08f6a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/Syos Matrix Session Isolation.md",
+                "file": "Stabilisability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,25 +102,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Stabilisability"
             }
           },
           {
-            "id": "f9f11bdb690aeca9",
+            "id": "2005b92e234e8d5f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/Syos Matrix Session Isolation.md",
+                "file": "Stabilisability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Stabilisability"
             }
           },
           {
-            "id": "34b826e8dadcb587",
+            "id": "c8dc2c68186a7797",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,7 +135,7 @@
             }
           },
           {
-            "id": "e4b6b18f7fd11a3d",
+            "id": "0838791680f0e832",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -171,18 +149,18 @@
             }
           },
           {
-            "id": "c92745277230bf36",
+            "id": "35af4f275614e6e4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/Syos Matrix Session Isolation.md",
+                "file": "Stabilisability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Stabilisability"
             }
           }
         ]
@@ -203,53 +181,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "08f8cc81a7c1a013",
+  "active": "51b74bf4ab618c2a",
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Untitled.md",
-    "Untitled 2.md",
-    "projects/Syos Matrix Session Isolation.md",
-    "projects/AAIMS HAL.md",
-    "projects",
-    "projects/Syos Guidance Module refactor.md",
-    "README.md",
-    "_meta/Probability & Statistics Template.md",
-    "_meta/Learning Sheet Template.md",
-    "_meta",
-    "_assets/Tue May 5 05 35 21 PM NZST 2026 1",
-    "_assets/Tue May 5 05 35 21 PM NZST 2026",
-    "_assets/Sat May 9 12 44 16 PM NZST 2026 2",
-    "_assets/Sat May 9 12 44 16 PM NZST 2026 1",
-    "_assets/Sat May 9 12 44 16 PM NZST 2026",
-    "_assets/Sat May 9 01 44 41 PM NZST 2026",
-    "middleware-and-simulation/Isaac Sim Workflow.md",
-    "middleware-and-simulation/Isaac Sim Extensions.md",
-    "middleware-and-simulation/GZ-SITL Split Simulation.md",
-    "middleware-and-simulation/Gazebo Transport.md",
-    "middleware-and-simulation/Gazebo Sim Architecture.md",
-    "middleware-and-simulation/Entity-Component System (ECS) architecture.md",
-    "middleware-and-simulation/ArduPilot SITL.md",
-    "middleware-and-simulation/GStreamer.md",
-    "middleware-and-simulation/SceneBroadcaster.md",
-    "middleware-and-simulation/Gazebo SDF Model Definition.md",
-    "middleware-and-simulation/Gazebo Scene Info.md",
-    "middleware-and-simulation/Gazebo Messages.md",
-    "middleware-and-simulation/ROS2/package.xml.md",
-    "middleware-and-simulation/ROS2/Topics.md",
-    "middleware-and-simulation/ROS2/Topic Type.md",
-    "middleware-and-simulation/ROS2/Services.md",
-    "middleware-and-simulation/ROS2/Service Type.md",
-    "middleware-and-simulation/ROS2",
-    "middleware-and-simulation",
-    "_assets/Pasted image 20260620180955.png",
-    "_assets/Pasted image 20260606190617.png",
-    "_assets/Pasted image 20260606185902.png",
-    "_assets/Pasted image 20260606181434.png",
-    "_assets/Pasted image 20260606181129.png",
-    "_assets/Pasted image 20260606174706.png",
-    "_assets/Pasted image 20260606174650.png",
-    "_assets/Pasted image 20260606174627.png",
-    "_assets/Pasted image 20260606174341.png",
-    "_assets/Pasted image 20260606174053.png"
+    "Variational Calculus/Variational Calculus.md",
+    "Variational Calculus/Lagrangian Derivation of the EOM.md",
+    "Variational Calculus/Euler-Lagrange Equation.md",
+    "Variational Calculus",
+    "Simulation/Isaac Sim Workflow.md",
+    "Simulation/Isaac Sim Extensions.md",
+    "Simulation/Gazebo Transport.md",
+    "Simulation/Gazebo Sim Architecture.md",
+    "Simulation/GZ-SITL Split Simulation.md",
+    "Simulation/Entity-Component System (ECS) architecture.md",
+    "Simulation/ArduPilot SITL.md",
+    "Simulation",
+    "ROS2/package.xml.md",
+    "ROS2/Topics.md",
+    "ROS2/Topic Type.md",
+    "ROS2/Services.md",
+    "ROS2/Service Type.md",
+    "ROS2/ROS2 Learning Notes.md",
+    "ROS2/ROS 2 build system.md",
+    "ROS2/Parameter Callback.md",
+    "ROS2/Node.md",
+    "ROS2/Node Parameters.md",
+    "ROS2/IDL file.md",
+    "ROS2/Colcon.md",
+    "ROS2/Actions.md",
+    "ROS2",
+    "Eigen/Eigen Sparse Matrix.md",
+    "Eigen",
+    "Controls/Stability.md",
+    "Controls/Stabilisability.md",
+    "Controls",
+    "Pasted image 20260620180955.png",
+    "Pasted image 20260606190617.png",
+    "Pasted image 20260606185902.png",
+    "Pasted image 20260606181434.png",
+    "Pasted image 20260606181129.png",
+    "Pasted image 20260606174706.png",
+    "Pasted image 20260606174650.png",
+    "Pasted image 20260606174627.png",
+    "Pasted image 20260606174341.png",
+    "Pasted image 20260606174053.png",
+    "Sat May 9 01 44 41 PM NZST 2026",
+    "Sat May 9 12 44 16 PM NZST 2026 2",
+    "Sat May 9 12 44 16 PM NZST 2026 1",
+    "Sat May 9 12 44 16 PM NZST 2026",
+    "Tue May 5 05 35 21 PM NZST 2026 1"
   ]
 }
